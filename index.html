@@ -1,0 +1,82 @@
+<!doctype html>
+<html ng-app="songListApp">
+    <head>
+        <title>Song List Viewer</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <style type="text/css">
+            body {
+                font-family: Arial, sans-serif;
+            }
+        </style>
+    </head>
+    <body ng-controller="SongListCtrl">
+        <h1>Song List Viewer</h1>
+        <div ng-hide="true" style="height:1000em; width:100%;">Just a moment...</div>
+        <!--
+<a href="javascript:showObscureSongs()">obscure</a> &nbsp;
+<a href="javascript:showNonObscureSongs()">non-obscure</a> &nbsp;
+-->
+        <p>
+            <a href="javascript:void(0);" ng-click="filterRating = false">Show all</a> &nbsp;
+            <a href="javascript:void(0);" ng-click="filterRating = 5">Excellent (5)</a> &nbsp;
+            <a href="javascript:void(0);" ng-click="filterRating = 4">Great (4)</a> &nbsp;
+            <a href="javascript:void(0);" ng-click="filterRating = 3">Good (3)</a> &nbsp;
+            <a href="javascript:void(0);" ng-click="filterRating = 2">Okay (2)</a> &nbsp;
+            <a ng-show="shouldShowDisliked" href="javascript:void(0);" ng-click="filterRating = 1">
+                Disliked (1)
+            </a> &nbsp;
+
+            <input id="show-disliked-checkbox" type="checkbox" ng-model="shouldShowDisliked" />
+            <label for="show-disliked-checkbox">Show disliked</label> &nbsp;
+            <a href="javascript:void(0);" ng-click="isViewingImportSongs = !isViewingImportSongs">{{isViewingImportSongs ? 'Hide Import Songs' : 'Import Songs'}}</a>
+        </p>
+
+        <p>
+
+        </p>
+
+        <div ng-show="isViewingImportSongs">
+            <h2>Songs to import</h2>
+            <textarea ng-model="importSongsText" rows="5" style="width: 90%"></textarea>
+            <p>
+                <button ng-click="importSongs()">Import</button>
+            </p>
+        </div>
+
+        <div ng-show="isViewingImportSongs && importedJSON">
+            <h2>JSON for imported songs</h2>
+            <p>Copy and paste this into songs.js</p>
+            <textarea ng-model="importedJSON" rows="5" style="width: 90%"></textarea>
+        </div>
+
+        <div id="songs">
+            <table>
+                <tbody>
+                    <tr>
+                        <th>Artist</th>
+                        <th>Title</th>
+                        <th>Rating</th>
+                        <th>Website</th>
+                    </tr>
+                    <tr ng-repeat="song in songs | filter:songIsVisible">
+                        <td>{{song.artist}}</td>
+                        <td>
+                            <a href="{{getSongUrl(song)}}">{{song.title}}</a>
+                        </td>
+                        <td>
+                            {{getStars(song.rating)}}
+                            <span ng-hide="song.rating">?</span>
+                        </td>
+                        <td>{{song.website}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div id="json"></div>
+        <p>By Ritchie Thai</p>
+        <script src="angular.min.js"></script>
+        <script src="songs.js"></script>
+        <script src="songs.php"></script>
+        <script src="main.js"></script>
+    </body>
+</html>
