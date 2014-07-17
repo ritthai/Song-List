@@ -20,6 +20,9 @@ angular.module('songListApp').controller('SongListCtrl', function ($scope) {
   $scope.searchEngine = 'grooveshark';
 
   $scope.getStars = function (number) {
+    if (!number) {
+      return '★★★?';
+    }
     var stars = '';
     for (var i = 0; i < number; i++) {
       stars += star;
