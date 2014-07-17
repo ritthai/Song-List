@@ -1,3 +1,9 @@
+/*
+Copyright (c) 2014 Ritchie Thai
+
+See the file license.txt for copying permission.
+*/
+
 angular.module('songListApp', []);
 
 angular.module('songListApp').controller('SongListCtrl', function ($scope) {

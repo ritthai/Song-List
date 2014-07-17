@@ -1,3 +1,10 @@
+/*
+Copyright (c) 2014 Ritchie Thai
+
+See the file license.txt for copying permission.
+*/
+
+
 var songs = [
   {
     "artist": "The Mountain Goats",
