@@ -1,104 +1,32 @@
-(function () {
+angular.module('songListApp', []);
 
-  var songs = window.songs;
+angular.module('songListApp').controller('SongListCtrl', function ($scope) {
+  $scope.songs = window.songs;
 
-  var init = function () {
-    showAllExceptDislikedSongs(songs);
-  };
+  var star = '★';
 
-  window.showSongs = function () {
-    printSongs(songs);
-  };
-
-  var showAllExceptDislikedSongs = window.showAllExceptDislikedSongs = function () {
-    var filteredSongs = filterOutDislikedSongs(songs);
-    printSongs(filteredSongs);
-  };
-
-  window.showSongsFilteredByRating = function (rating) {
-    var filteredSongs = filterSongsByRating(songs, rating);
-    printSongs(filteredSongs);
-  };
-
-  window.showObscureSongs = function () {
-    var filteredSongs = filterForObscureSongs(songs);
-    printSongs(filteredSongs);
-  };
-
-  window.showNonObscureSongs = function () {
-    var filteredSongs = filterForNonObscureSongs(songs);
-    printSongs(filteredSongs);
-  };
-
-  window.showJson = function () {
-    printJson(songs);
-  };
-
-  var filterOutDislikedSongs = function (songs) {
-    var filteredSongs = [],
-        song = null,
-        i;
-    for (i = 0; i < songs.length; i++) {
-      song = songs[i];
-      if (song.rating !== 1) { filteredSongs.push(song); }
+  $scope.getStars = function (number) {
+    var stars = '';
+    for (var i = 0; i < number; i++) {
+      stars += star;
     }
-    return filteredSongs;
+    return stars;
   };
 
-  var filterSongsByRating = function (songs, rating) {
-    var filteredSongs = [],
-        song = null,
-        i;
-    for (i = 0; i < songs.length; i++) {
-      song = songs[i];
-      if (song.rating === rating) { filteredSongs.push(song); }
+  $scope.getSongUrl = function (song) {
+    return (
+        song.url ||
+        (
+          'http://www.youtube.com/results?search_query=' +
+          (song.artist + ' ' + song.title).replace(/\s/g, "+")
+        )
+      );
+  };
+
+  $scope.songIsVisible = function (song) {
+    if ($scope.filterRating) {
+      return song.rating === $scope.filterRating;
     }
-    return filteredSongs;
+    return true;
   };
-
-  var filterForObscureSongs = function (songs) {
-    var filteredSongs = [],
-        song = null,
-        i;
-    for (i = 0; i < songs.length; i++) {
-      song = songs[i];
-      if (song.isObscure) { filteredSongs.push(song); }
-    }
-    return filteredSongs;
-  };
-
-  var filterForNonObscureSongs = function (songs) {
-    var filteredSongs = [],
-        song = null,
-        i;
-    for (i = 0; i < songs.length; i++) {
-      song = songs[i];
-      if (!song.isObscure) { filteredSongs.push(song); }
-    }
-    return filteredSongs;
-  };
-
-  var printSongs = function (songs) {
-    var output = "<table>" +
-        "<tr> <th>Artist</th> <th>Title</th> <th>Rating</th> <th>Website</th> </tr>";
-    for (var i = 0; i < songs.length; i++) {
-      output += "<tr>" +
-        "<td>" + songs[i].artist + "</td>" + "<td>" +
-        "<a href=\"http://www.youtube.com/results?search_query=" +
-        (songs[i].artist + " " + songs[i].title).replace(/\s/g, "+") + "\">" + songs[i].title + "</a>" +
-        "</td>" +
-        "<td>" + (songs[i].hasOwnProperty("rating") ? songs[i].rating : "") + "</td>" +
-        "<td>" + (songs[i].hasOwnProperty("website") ? songs[i].website : "") + "</td>" +
-        "</tr>";
-    }
-    output += '</table>';
-    document.getElementById("songs").innerHTML = output;
-  };
-
-  var printJson = function (jsonData) {
-    var output = "<pre>" + JSON.stringify(jsonData, null, "\t") + "</pre>";
-    document.getElementById("songs").innerHTML = output;
-  };
-
-  init();
-}());
+});
