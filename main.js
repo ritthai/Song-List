@@ -28,7 +28,6 @@ angular.module('songListApp').controller('SongListCtrl', function ($scope) {
   };
 
   $scope.getSongUrl = function (song) {
-    console.log($scope.searchEngine);
     return (
       song.url ||
       (

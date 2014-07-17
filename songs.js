@@ -21,7 +21,8 @@ var songs = [
   },
   {
     "artist": "Nirvana",
-    "title": "Dumb"
+    "title": "Dumb",
+    "rating": 5
   },
   {
     "artist": "Dave Brubeck Quartet",
