@@ -42,7 +42,8 @@ var songs = [
   },
   {
     "artist": "Alanis Morisette",
-    "title": "Hand in My Pocket"
+    "title": "Hand in My Pocket",
+    "rating": 5
   },
   {
     "artist": "No Doubt",
@@ -55,7 +56,8 @@ var songs = [
   {
     "artist": "Hey Arnold!",
     "title": "Hey Arnold! Theme Cover",
-    "url": "https://www.youtube.com/watch?v=1wz80Rvxgw4"
+    "url": "https://www.youtube.com/watch?v=1wz80Rvxgw4",
+    "rating": 5
   },
   {
     "artist": "Toni Basil",
