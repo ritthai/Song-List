@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>Song List Viewer</title>
+        <style type="text/css">
+            body {
+                font-family: Arial, sans-serif;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Song List Viewer</h1>
+        <a href="javascript:showSongs()">all</a> &nbsp;
+        <a href="javascript:showAllExceptDislikedSongs()">all except disliked</a> &nbsp;
+        <a href="javascript:showObscureSongs()">obscure</a> &nbsp;
+        <a href="javascript:showNonObscureSongs()">non-obscure</a> &nbsp;
+        <br />
+        filtered by rating:
+        <a href="javascript:showSongsFilteredByRating(5)">excellent (5)</a> &nbsp;
+        <a href="javascript:showSongsFilteredByRating(4)">great (4)</a> &nbsp;
+        <a href="javascript:showSongsFilteredByRating(3)">good (3)</a> &nbsp;
+        <a href="javascript:showSongsFilteredByRating(2)">okay (2)</a> &nbsp;
+        <a href="javascript:showSongsFilteredByRating(1)">disliked (1)</a> &nbsp;
+        <br />
+        <a href="javascript:showJson()">JSON</a>
+        <div id="songs"></div>
+        <div id="json"></div>
+        <p>By Ritchie Thai</p>
+        <script src="songs.js"></script>
+        <script src="main.js"></script>
+    </body>
+</html>
