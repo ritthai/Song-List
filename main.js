@@ -31,6 +31,13 @@ angular.module('songListApp').controller('SongListCtrl', function ($scope) {
     return true;
   };
 
+  $scope.songOrderPredicate = function (song) {
+    if ($scope.isSortingByRating) {
+          return song.rating ? -song.rating : -3.5;
+    }
+    return null;
+  };
+
   $scope.importSongs = function () {
     var importSongsText = $scope.importSongsText || '';
     var lines = importSongsText.split('\n');

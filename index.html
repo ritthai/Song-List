@@ -26,6 +26,9 @@
                 Disliked (1)
             </a> &nbsp;
 
+            <input id="sort-by-rating-checkbox" type="checkbox" ng-model="isSortingByRating" />
+            <label for="sort-by-rating-checkbox">Sort by rating</label> &nbsp;
+
             <input id="show-disliked-checkbox" type="checkbox" ng-model="shouldShowDisliked" />
             <label for="show-disliked-checkbox">Show disliked</label> &nbsp;
             <a href="javascript:void(0);" ng-click="isViewingImportSongs = !isViewingImportSongs">{{isViewingImportSongs ? 'Hide Import Songs' : 'Import Songs'}}</a>
@@ -58,7 +61,7 @@
                         <th>Rating</th>
                         <th>Website</th>
                     </tr>
-                    <tr ng-repeat="song in songs | filter:songIsVisible">
+                    <tr ng-repeat="song in songs | filter:songIsVisible | orderBy:songOrderPredicate">
                         <td>{{song.artist}}</td>
                         <td>
                             <a href="{{getSongUrl(song)}}">{{song.title}}</a>

@@ -4581,7 +4581,7 @@ var songs = [
   {
     "artist": "Queen",
     "title": "You're My Best Friend",
-    "rating": 5
+    "rating": 4
   },
   {
     "artist": "Queen",
@@ -4596,22 +4596,22 @@ var songs = [
   {
     "artist": "Queen",
     "title": "Lazing on a Sunday Afternoon",
-    "rating": 5
+    "rating": 4
   },
   {
     "artist": "Queen",
     "title": "Seaside Rendevous",
-    "rating": 5
+    "rating": 4
   },
   {
     "artist": "Queen",
     "title": "'39",
-    "rating": 5
+    "rating": 4
   },
   {
     "artist": "Queen",
     "title": "Good Company",
-    "rating": 5
+    "rating": 3
   },
   {
     "artist": "Queen",
@@ -4646,7 +4646,7 @@ var songs = [
   {
     "artist": "Queen",
     "title": "Play The Game",
-    "rating": 5
+    "rating": 4
   },
   {
     "artist": "Queen",
@@ -4666,22 +4666,22 @@ var songs = [
   {
     "artist": "Queen",
     "title": "Crazy Little Thing Called Love",
-    "rating": 5
+    "rating": 3
   },
   {
     "artist": "Queen",
     "title": "We Will Rock You",
-    "rating": 5
+    "rating": 4
   },
   {
     "artist": "Queen",
     "title": "You and I",
-    "rating": 5
+    "rating": 3
   },
   {
     "artist": "Queen",
     "title": "Millionaire Waltz",
-    "rating": 5
+    "rating": 3
   },
   {
     "artist": "Queen",
@@ -4691,42 +4691,42 @@ var songs = [
   {
     "artist": "Queen",
     "title": "Don't Stop Me Now",
-    "rating": 5
+    "rating": 4
   },
   {
     "artist": "Queen",
     "title": "Bicycle Race",
-    "rating": 5
+    "rating": 4
   },
   {
     "artist": "Queen",
     "title": "Death on Two Legs",
-    "rating": 5
+    "rating": 4
   },
   {
     "artist": "Queen",
     "title": "Sweet Lady",
-    "rating": 5
+    "rating": 4
   },
   {
     "artist": "Queen",
     "title": "You Take My Breath Away",
-    "rating": 5
+    "rating": 3
   },
   {
     "artist": "Queen",
     "title": "Another One Bites the Dust",
-    "rating": 5
+    "rating": 4
   },
   {
     "artist": "Queen",
     "title": "The Show Must Go On",
-    "rating": 5
+    "rating": 4
   },
   {
     "artist": "Queen",
     "title": "I Was Born to Love You",
-    "rating": 5
+    "rating": 3
   },
   {
     "artist": "Led Zeppelin",
@@ -4746,12 +4746,12 @@ var songs = [
   {
     "artist": "The Beatles",
     "title": "Elanor Rigby",
-    "rating": 5
+    "rating": 4
   },
   {
     "artist": "The Beatles",
     "title": "Hello Goodbye",
-    "rating": 5
+    "rating": 4
   },
   {
     "artist": "The Beatles",
@@ -4761,17 +4761,17 @@ var songs = [
   {
     "artist": "The Beatles",
     "title": "I Want To Hold Your Hand",
-    "rating": 5
+    "rating": 3
   },
   {
     "artist": "The Beatles",
     "title": "Come Together",
-    "rating": 5
+    "rating": 4
   },
   {
     "artist": "The Beatles",
     "title": "I Am the Walrus",
-    "rating": 5
+    "rating": 4
   },
   {
     "artist": "Billy Joel",
@@ -4781,7 +4781,7 @@ var songs = [
   {
     "artist": "Billy Joel",
     "title": "A Matter Of Trust",
-    "rating": 5
+    "rating": 4
   },
   {
     "artist": "Billy Joel",
@@ -5026,12 +5026,12 @@ var songs = [
   {
     "artist": "Katy Perry",
     "title": "Waking Up In Vegas",
-    "rating": 5
+    "rating": 4
   },
   {
     "artist": "Katy Perry",
     "title": "Hook Up",
-    "rating": 5
+    "rating": 4
   },
   {
     "artist": "Prince",
@@ -5191,12 +5191,12 @@ var songs = [
   {
     "artist": "My Chemical Romance",
     "title": "Blood",
-    "rating": 5
+    "rating": 4
   },
   {
     "artist": "Blue",
     "title": "The Birthday Massacre",
-    "rating": 5
+    "rating": 4
   },
   {
     "artist": "Weezer",
