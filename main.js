@@ -11,7 +11,13 @@ angular.module('songListApp').controller('SongListCtrl', function ($scope) {
 
   var star = '★';
 
+  var searchUrls = {
+    'youtube': 'http://www.youtube.com/results?search_query=',
+    'grooveshark': 'http://grooveshark.com/#!/search?q='
+  };
+
   $scope.filterRating = false;
+  $scope.searchEngine = 'grooveshark';
 
   $scope.getStars = function (number) {
     var stars = '';
@@ -22,11 +28,12 @@ angular.module('songListApp').controller('SongListCtrl', function ($scope) {
   };
 
   $scope.getSongUrl = function (song) {
+    console.log($scope.searchEngine);
     return (
       song.url ||
       (
-        'http://www.youtube.com/results?search_query=' +
-        (song.artist + ' ' + song.title).replace(/\s/g, "+")
+        searchUrls[$scope.searchEngine] +
+        encodeURIComponent(song.artist + ' ' + song.title)
       )
     );
   };
