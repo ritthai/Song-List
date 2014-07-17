@@ -5,6 +5,8 @@ angular.module('songListApp').controller('SongListCtrl', function ($scope) {
 
   var star = '★';
 
+  $scope.filterRating = false;
+
   $scope.getStars = function (number) {
     var stars = '';
     for (var i = 0; i < number; i++) {
@@ -33,9 +35,12 @@ angular.module('songListApp').controller('SongListCtrl', function ($scope) {
 
   $scope.songOrderPredicate = function (song) {
     if ($scope.isSortingByRating) {
-          return song.rating ? -song.rating : -3.5;
+      return song.rating ? -song.rating : -3.5;
     }
-    return null;
+    if ($scope.isSortingByArtist) {
+      return song.artist;
+    }
+    return $scope.songs.indexOf(song);
   };
 
   $scope.importSongs = function () {
