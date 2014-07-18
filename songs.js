@@ -74,7 +74,8 @@ var songs = [
   },
   {
     "artist": "Spirited Away",
-    "title": "One Summer's Day"
+    "title": "One Summer's Day",
+    "rating": 5
   },
   {
     "artist": "Connan Mockasin",
@@ -1316,7 +1317,8 @@ var songs = [
   },
   {
     "artist": "Round Table feat. Nino",
-    "title": "Let Me Be With You (New Step Mix)"
+    "title": "Let Me Be With You (New Step Mix)",
+    "rating": 5
   },
   {
     "artist": "Panty & Stocking with Garterbelt OST",
@@ -1761,7 +1763,8 @@ var songs = [
   },
   {
     "artist": "Beck",
-    "title": "Loser"
+    "title": "Loser",
+    "rating": 5
   },
   {
     "artist": "The OverClocked Plaid Muffins",
@@ -2049,7 +2052,8 @@ var songs = [
   },
   {
     "artist": "Chobits",
-    "title": "I Hear You Everywhere"
+    "title": "I Hear You Everywhere",
+    "rating": 4
   },
   {
     "artist": "Amaning",
@@ -2061,7 +2065,8 @@ var songs = [
   },
   {
     "artist": "Knife Party",
-    "title": "Internet Friends"
+    "title": "Internet Friends",
+    "rating": 4
   },
   {
     "artist": "Lock N Bounce",
@@ -2069,7 +2074,8 @@ var songs = [
   },
   {
     "artist": "Gnarls Barkley",
-    "title": "Gone Daddy Gone"
+    "title": "Gone Daddy Gone",
+    "rating": 4
   },
   {
     "artist": "Gnarls Barkley",
@@ -2077,7 +2083,8 @@ var songs = [
   },
   {
     "artist": "Gnarls Barkley",
-    "title": "Who's Gonna Save My Soul"
+    "title": "Who's Gonna Save My Soul",
+    "rating": 4
   },
   {
     "artist": "David Guetta",
@@ -2422,7 +2429,8 @@ var songs = [
     "artist": "SoGreatAndPowerful",
     "title": "A Beautiful Heart",
     "isObscure": true,
-    "website": "youtube.com"
+    "website": "youtube.com",
+    "rating": 5
   },
   {
     "artist": "Tower of Heaven Soundtrack",
@@ -2510,7 +2518,8 @@ var songs = [
     "artist": "AbranteDr",
     "title": "\"May the best rap win!\" RD&Fluttershy mix",
     "isObscure": true,
-    "website": "youtube.com"
+    "website": "youtube.com",
+    "rating": 4
   },
   {
     "artist": "KeepOnRockin'",
@@ -2570,19 +2579,22 @@ var songs = [
     "artist": "Silva Hound",
     "title": "Spitfire (Silva Hound Remix)",
     "isObscure": true,
-    "website": "youtube.com"
+    "website": "youtube.com",
+    "rating": 5
   },
   {
     "artist": "Silva Hound",
     "title": "Spitfire",
     "isObscure": true,
-    "website": "youtube.com"
+    "website": "youtube.com",
+    "rating": 5
   },
   {
     "artist": "SoGreatandPowerful",
     "title": "Your Faithful Student",
     "isObscure": true,
-    "website": "youtube.com"
+    "website": "youtube.com",
+    "rating": 5
   },
   {
     "artist": "PinkiePieSwear",
@@ -2642,11 +2654,13 @@ var songs = [
   },
   {
     "artist": "DJ Falcon & Thomas Bangalter",
-    "title": "Together"
+    "title": "Together",
+    "rating": 5
   },
   {
     "artist": "La Roux",
-    "title": "In for the Kill"
+    "title": "In for the Kill",
+    "rating": 4
   },
   {
     "artist": "Beardyman",
@@ -2700,7 +2714,8 @@ var songs = [
   },
   {
     "artist": "Brooke Fraser",
-    "title": "Something in the Water"
+    "title": "Something in the Water",
+    "rating": 5
   },
   {
     "artist": "Paramore",
@@ -2732,7 +2747,8 @@ var songs = [
   },
   {
     "artist": "Violent Femmes",
-    "title": "Blister in the Sun"
+    "title": "Blister in the Sun",
+    "rating": 5
   },
   {
     "artist": "Beardyman",
@@ -2859,7 +2875,8 @@ var songs = [
   },
   {
     "artist": "Electric Light Orchestra",
-    "title": "Mr. Blue Sky"
+    "title": "Mr. Blue Sky",
+    "rating": 5
   },
   {
     "artist": "The Asteroids Galaxy Tour",
@@ -2895,7 +2912,8 @@ var songs = [
   },
   {
     "artist": "Daft Punk",
-    "title": "Aerodynamic"
+    "title": "Aerodynamic",
+    "rating": 5
   },
   {
     "artist": "Daft Punk",
@@ -2943,7 +2961,8 @@ var songs = [
   },
   {
     "artist": "Black Kids",
-    "title": "I'm Not Gonna Teach Your Boyfriend How To Dance With You"
+    "title": "I'm Not Gonna Teach Your Boyfriend How To Dance With You",
+    "rating": 5
   },
   {
     "artist": "Petula Clark",
@@ -2992,7 +3011,8 @@ var songs = [
   },
   {
     "artist": "",
-    "title": "Ghetto Superstar"
+    "title": "Ghetto Superstar",
+    "rating": 4
   },
   {
     "artist": "Ellie Goulding",
@@ -3209,11 +3229,13 @@ var songs = [
   },
   {
     "artist": "Hootie & the Blowfish",
-    "title": "I Go Blind"
+    "title": "I Go Blind",
+    "rating": 4
   },
   {
     "artist": "3 Doors Down",
-    "title": "Let Me Go"
+    "title": "Let Me Go",
+    "rating": 4
   },
   {
     "artist": "Liz Phair",
@@ -3234,7 +3256,8 @@ var songs = [
   },
   {
     "artist": "The Guild",
-    "title": "Do You Wanna Date My Avatar"
+    "title": "Do You Wanna Date My Avatar",
+    "rating": 3
   },
   {
     "artist": "The Supremes",
@@ -3247,7 +3270,8 @@ var songs = [
   },
   {
     "artist": "Vince Guaraldi",
-    "title": "Skating"
+    "title": "Skating",
+    "rating": 5
   },
   {
     "artist": "Oasis",
@@ -3264,7 +3288,8 @@ var songs = [
   },
   {
     "artist": "Flogging Molly",
-    "title": "Salty Dog"
+    "title": "Salty Dog",
+    "rating": 5
   },
   {
     "artist": "Tenacious D",
@@ -3339,7 +3364,8 @@ var songs = [
   },
   {
     "artist": "Round Table",
-    "title": "Puzzle *Extra Hot Mix*"
+    "title": "Puzzle *Extra Hot Mix*",
+    "rating": 5
   },
   {
     "artist": "deadmau5",
@@ -3470,7 +3496,8 @@ var songs = [
   },
   {
     "artist": "Louis Armstrong",
-    "title": "Basin Street Blues"
+    "title": "Basin Street Blues",
+    "rating": 5
   },
   {
     "artist": "Kid Koala",
@@ -3500,7 +3527,8 @@ var songs = [
   },
   {
     "artist": "Seether",
-    "title": "Broken"
+    "title": "Broken",
+    "rating": 3
   },
   {
     "artist": "Kid Koala",
@@ -3551,11 +3579,13 @@ var songs = [
   },
   {
     "artist": "The Police",
-    "title": "Every Breath You Take"
+    "title": "Every Breath You Take",
+    "rating": 4
   },
   {
     "artist": "The Pointer Sisters",
-    "title": "I'm So Excited"
+    "title": "I'm So Excited",
+    "rating": 2
   },
   {
     "artist": "Starship",
@@ -3576,23 +3606,28 @@ var songs = [
   },
   {
     "artist": "Modern English",
-    "title": "I Melt with You"
+    "title": "I Melt with You",
+    "rating": 4
   },
   {
     "artist": "Gary Numan",
-    "title": "Cars"
+    "title": "Cars",
+    "rating": 2
   },
   {
     "artist": "New Kids on the Block",
-    "title": "The Right Stuff"
+    "title": "The Right Stuff",
+    "rating": 1
   },
   {
     "artist": "Foreigner",
-    "title": "I Want to Know What Love Is"
+    "title": "I Want to Know What Love Is",
+    "rating": 2
   },
   {
     "artist": "Depeche Mode",
-    "title": "Just Can't Get Enough"
+    "title": "Just Can't Get Enough",
+    "rating": 4
   },
   {
     "artist": "The Original Caste",
@@ -3616,7 +3651,8 @@ var songs = [
   },
   {
     "artist": "New Kids on the Block",
-    "title": "Dirty Dancing"
+    "title": "Dirty Dancing",
+    "rating": 1
   },
   {
     "artist": "",
@@ -3713,7 +3749,8 @@ var songs = [
   },
   {
     "artist": "Billy Talent",
-    "title": "River Below"
+    "title": "River Below",
+    "rating": 4
   },
   {
     "artist": "Bruno Mars",
@@ -3722,7 +3759,8 @@ var songs = [
   },
   {
     "artist": "Come On Come On",
-    "title": "Goldrush"
+    "title": "Goldrush",
+    "rating": 4
   },
   {
     "artist": "Collette",
@@ -3742,11 +3780,13 @@ var songs = [
   },
   {
     "artist": "Santana",
-    "title": "Why Don't You & I"
+    "title": "Why Don't You & I",
+    "rating": 3
   },
   {
     "artist": "Enrique Iglesias",
-    "title": "Bailamos"
+    "title": "Bailamos",
+    "rating": 1
   },
   {
     "artist": "Neil Diamond",
@@ -3754,7 +3794,8 @@ var songs = [
   },
   {
     "artist": "Tommy Tutone",
-    "title": "867-5309/Jenny"
+    "title": "867-5309/Jenny",
+    "rating": 4
   },
   {
     "artist": "Madonna",
@@ -3770,7 +3811,8 @@ var songs = [
   },
   {
     "artist": "Blondie",
-    "title": "Call Me"
+    "title": "Call Me",
+    "rating": 4
   },
   {
     "artist": "Phil Collins",
@@ -3867,7 +3909,8 @@ var songs = [
   },
   {
     "artist": "Bob Marley",
-    "title": "Is This Love"
+    "title": "Is This Love",
+    "rating": 5
   },
   {
     "artist": "The La's",
@@ -3954,11 +3997,13 @@ var songs = [
   },
   {
     "artist": "ABBA",
-    "title": "Take A Chance On Me"
+    "title": "Take A Chance On Me",
+    "rating": 2
   },
   {
     "artist": "Baltimora",
-    "title": "Tarzan Boy"
+    "title": "Tarzan Boy",
+    "rating": 2
   },
   {
     "artist": "Morrissey",
@@ -3966,7 +4011,8 @@ var songs = [
   },
   {
     "artist": "Reel Big Fish",
-    "title": "We Hate It When Our Friends Become Successful"
+    "title": "We Hate It When Our Friends Become Successful",
+    "rating": 4
   },
   {
     "artist": "Tom Petty",
@@ -4043,7 +4089,8 @@ var songs = [
   },
   {
     "artist": "Treble Charger",
-    "title": "Brand New Low"
+    "title": "Brand New Low",
+    "rating": 4
   },
   {
     "artist": "",
@@ -4055,7 +4102,8 @@ var songs = [
   },
   {
     "artist": "Passion Pit",
-    "title": "Sleepyhead"
+    "title": "Sleepyhead",
+    "rating": 4
   },
   {
     "artist": "Lazy Town",
@@ -4067,7 +4115,8 @@ var songs = [
   },
   {
     "artist": "Mega Man 2",
-    "title": "Dr. Wily Stage 1"
+    "title": "Dr. Wily Stage 1",
+    "rating": 4
   },
   {
     "artist": "Marilyn Manson",
@@ -4115,7 +4164,8 @@ var songs = [
   },
   {
     "artist": "Bon Jovi",
-    "title": "You Give Love A Bad Name"
+    "title": "You Give Love A Bad Name",
+    "rating": 4
   },
   {
     "artist": "Three Days Grace",
@@ -4127,7 +4177,8 @@ var songs = [
   },
   {
     "artist": "Finger Eleven",
-    "title": "Paralyzer"
+    "title": "Paralyzer",
+    "rating": 2
   },
   {
     "artist": "Bon Jovi",
@@ -4213,7 +4264,8 @@ var songs = [
   },
   {
     "artist": "Weather Girls",
-    "title": "Its Raining Men"
+    "title": "Its Raining Men",
+    "rating": 3
   },
   {
     "artist": "My Guy",
@@ -4257,7 +4309,8 @@ var songs = [
   },
   {
     "artist": "Freezepop",
-    "title": "Less Talk More Rokk"
+    "title": "Less Talk More Rokk",
+    "rating": 2
   },
   {
     "artist": "James Brown",
@@ -4273,7 +4326,8 @@ var songs = [
   },
   {
     "artist": "",
-    "title": "Merry Christmas Mr Lawrence"
+    "title": "Merry Christmas Mr Lawrence",
+    "rating": 5
   },
   {
     "artist": "Slash",
@@ -4332,7 +4386,8 @@ var songs = [
   },
   {
     "artist": "Loverboy",
-    "title": "Working for the Weekend"
+    "title": "Working for the Weekend",
+    "rating": 4
   },
   {
     "artist": "The Romantics",
@@ -4340,7 +4395,8 @@ var songs = [
   },
   {
     "artist": "Gnarls Barkley",
-    "title": "Crazy"
+    "title": "Crazy",
+    "rating": 5
   },
   {
     "artist": "Arrogant Worms",
@@ -4356,7 +4412,8 @@ var songs = [
   },
   {
     "artist": "Spoon",
-    "title": "The Underdog"
+    "title": "The Underdog",
+    "rating": 4
   },
   {
     "artist": "Cyndi Lauper",
@@ -4382,7 +4439,8 @@ var songs = [
   },
   {
     "artist": "Arcade Fire",
-    "title": "We Used To Wait"
+    "title": "We Used To Wait",
+    "rating": 2
   },
   {
     "artist": "",
@@ -4431,11 +4489,13 @@ var songs = [
   },
   {
     "artist": "Billy Idol",
-    "title": "Dancing With Myself"
+    "title": "Dancing With Myself",
+    "rating": 4
   },
   {
     "artist": "Jimi Hendrix",
-    "title": "Purple Haze"
+    "title": "Purple Haze",
+    "rating": 4
   },
   {
     "artist": "Steppenwolf",
@@ -4503,7 +4563,8 @@ var songs = [
   },
   {
     "artist": "",
-    "title": "Take Five"
+    "title": "Take Five",
+    "rating": 5
   },
   {
     "artist": "Ritchie Valens",
